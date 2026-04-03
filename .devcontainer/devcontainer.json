@@ -40,8 +40,8 @@
     }
   },
   
-  "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh"
-  "postStartCommand": "uv run python -m ipykernel install --user --name project-kernel --display-name 'Python (project-kernel)' || true"
+  "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && .devcontainer/postCreate.sh",
+  "postStartCommand": "uv run python -m ipykernel install --user --name project-kernel --display-name 'Python (project-kernel)' || true",
   
   "portsAttributes": {
     "8888": {
