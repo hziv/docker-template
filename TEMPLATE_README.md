@@ -9,4 +9,5 @@ Windows and Mac Docker Template for Python development
 1. `cd` into the cloned directory
 1. Set `docker-template` as `upstream` remote by running `git remote add template https://<gph_token>@github.com/hziv/docker-template.git`
 1. When wanting to fetch and update from template repo run: `git fetch template` followed by `git merge template/main --allow-unrelated-histories --squash`
+1. Run `git commit . -m "introduction of docker template to the repo"` followed by `git push`
 1. **Remember** to `push` to your new repo after `merge`.
